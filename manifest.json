@@ -1,0 +1,44 @@
+{
+  "version": "1",
+  "information": {
+    "name": "payment-expense-report",
+    "displayName": "Payment vs Expense Report",
+    "description": "Monthly report showing Payments, Expenses, and Net Total (Payment minus Expense) with summary view",
+    "url": "https://github.com/Ubiquiti-App/UCRM-plugins",
+    "version": "1.0.0",
+    "ucrmVersionCompliancy": {
+      "min": "2.14.0-beta4",
+      "max": null
+    },
+    "unmsVersionCompliancy": {
+      "min": "2.1.0",
+      "max": null
+    },
+    "author": "UISP Plugin Developer"
+  },
+  "configuration": [
+    {
+      "key": "currency",
+      "label": "Currency Symbol",
+      "type": "text",
+      "default": "PHP",
+      "description": "Currency symbol to display in reports"
+    },
+    {
+      "key": "expense_data_path",
+      "label": "Expense Data Path",
+      "type": "text",
+      "required": false,
+      "default": "auto",
+      "description": "Path to expense manager data file (use 'auto' for automatic detection)"
+    }
+  ],
+  "menu": [
+    {
+      "key": "Reports",
+      "label": "Payment vs Expense",
+      "type": "admin",
+      "target": "iframe"
+    }
+  ]
+}

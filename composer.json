@@ -1,0 +1,14 @@
+{
+  "description": "Payment vs Expense Report Plugin for UISP - Shows monthly Payment, Expense, and Net totals",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "App\\": [
+        "classes/"
+      ]
+    }
+  },
+  "require": {
+    "ubnt/ucrm-plugin-sdk": "^0.9"
+  }
+}
