@@ -85,4 +85,4 @@ MIT License
 
 ## Author
 
-UISP Plugin Developer
+**xingginto**
