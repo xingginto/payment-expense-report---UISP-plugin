@@ -4,7 +4,7 @@
     "name": "payment-expense-report",
     "displayName": "Payment vs Expense Report",
     "description": "Monthly report showing Payments, Expenses, and Net Total (Payment minus Expense) with summary view",
-    "url": "https://github.com/Ubiquiti-App/UCRM-plugins",
+    "url": "https://github.com/xingginto/",
     "version": "1.0.0",
     "ucrmVersionCompliancy": {
       "min": "2.14.0-beta4",
